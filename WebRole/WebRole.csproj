@@ -114,7 +114,12 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SomeLibrary\SomeLibrary.csproj">
+      <Project>{96ad117b-fad1-4d29-8461-87d4ebbd1608}</Project>
+      <Name>SomeLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
